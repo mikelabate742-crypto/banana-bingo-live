@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: banana-bingo-telegram
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm install && npm run build
+    startCommand: node --loader tsx server.ts
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: TELEGRAM_BOT_TOKEN
+        value: 8926400387:AAE4JGcckrmVhIfT_ffd1hnyzbeIC4GfRs4

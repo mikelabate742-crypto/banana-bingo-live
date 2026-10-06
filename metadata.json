@@ -1,0 +1,6 @@
+{
+  "name": "ባናና ቢንጎ (Banana Bingo) - Live Multiplayer Bingo",
+  "description": "የቀጥታ የኢትዮጵያ ባለብዙ ተጫዋች ቢንጎ ጨዋታ። በቴሌብር እና በንግድ ባንክ የሚሰራ ራስ-ገዝ አውቶ-ፓይለት ጨዋታ።",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
